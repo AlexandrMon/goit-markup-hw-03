@@ -32,26 +32,37 @@ body{ font-family:'Roboto',sans-serif;
 
 .line-one {display: flex;
            flex-wrap: wrap;
-           column-gap:24px;
+           /* column-gap:24px; */
            row-gap:32px;}
 .line{display: flex;
-      column-gap:24px;}
+      /* column-gap:24px; */
+      /* margin-right:24px; */
+      }
+
+ /* .margin-right */
+     /* :not(:nth-child(3n))  */
+              /* {margin-right: 24px;}  */
+
+ /* .margin-right-one{ */
+ /* :not(:nth-child(3n)){ */
+       /* margin-right:0;} */
+
 
 .line-portfolio-one {
        display: flex;
        align-items: center;
        justify-content: center;
-       column-gap: 24px ;
+       column-gap: 24px ; 
        /* margin-top:96px; */
        margin-bottom:72px;}
  .line-portfolio-too {
          display: flex;
          flex-wrap: wrap;
-         column-gap: 24px;
+         /* column-gap: 24px; */
          row-gap: 48px;}
 
-  /* .element-margin:not(:nth-child(3n)){ margin-right:24px;}            */
-/* .element-margin-one:not(:nth-child(4n)) {margin-right: 24px;} */
+.element-margin:not(:nth-child(3n)){ margin-right:24px;}            
+.element-margin-one:not(:nth-child(4n)) {margin-right: 24px;} 
 
 .p-descriphion{
       font-size:16px;
@@ -60,11 +71,14 @@ body{ font-family:'Roboto',sans-serif;
       color: var(--color-four);}
 
 .header{padding-top:24px ;
-        padding-bottom:24px;}
+        padding-bottom:24px;
+        }
 
 .header-container{display: flex;
                   align-items: center;
-                  border-bottom: 1px solid var(--color-seven);}
+                  border-bottom: 1px solid var(--color-seven);
+                  padding-top:24px;
+                  padding-bottom:24px;}  
 .nav{display: flex;
      align-items: center;}                    
        
@@ -111,8 +125,8 @@ body{ font-family:'Roboto',sans-serif;
 .m-right{margin-right:40px;}
 
 .hero{background-color: var(--color-one);
-      width:1440px;
-      height:600px;}
+       /* width:1440px;  */
+       height:600px;} 
 
 .title-one{
       font-weight: 700;
@@ -121,7 +135,7 @@ body{ font-family:'Roboto',sans-serif;
       letter-spacing: 0.02em;
       text-align: center;
       color:var(--color-three);
-      width:496px;
+      max-width:496px;
       margin: 0 auto ; 
       padding-top:188px;
       padding-bottom:48px;}
@@ -134,9 +148,13 @@ body{ font-family:'Roboto',sans-serif;
         cursor:pointer;
         background-color:var(--color-too);
         color: var(--color-three);
+        min-width:169px;
+        height:56px;
         display: block;
         margin: 0 auto;
-        padding: 16px 32px 16px 32px;}
+        padding: 16px 32px 16px 32px;
+        border: none;
+        border-radius:4px;}
 .button:hover,.button:focus{ background-color: var(--color-six);}
 .card{background-color: var(--color-three);}
                              
@@ -149,10 +167,13 @@ body{ font-family:'Roboto',sans-serif;
          background-color: var(--color-five);
          color:var(--color-too);
          display: block;
-         padding: 12px 24px 12px 24px;}
+         padding: 12px 24px 12px 24px;
+         border: 1px solid var(--color-seven);
+         border-radius: 4px;}
 .button-too:hover,.button-too:focus{
       background-color:var(--color-six); 
-      color: var(--color-three);}         
+      color: var(--color-three);
+      border: 1px solid transparent;}         
 
 .section {background-color: var(--color-five);
           padding-top:120px;
@@ -183,21 +204,27 @@ body{ font-family:'Roboto',sans-serif;
               margin-bottom:8px;}
 
 
-.footer{background-color:var(--color-one);}
-.footer-conteiner{width: 1440px;
-                  height: 312px;
-                  padding-left:156px;
+.footer{background-color:var(--color-one);
+        height: 312px;}
+ .footer-conteiner{
+            /* height: 312px; */
+                  /* padding-left:156px; */
+                  padding-left:35px ;
                   padding-top:100px;
-                  padding-right:1020px;
-                  padding-bottom:100px;}
+                  /* padding-right:1020px; */
+                  padding-right: 899px;
+                  padding-bottom:100px;
+            }
 .p-footer{color:var(--color-five);
           margin-top:16px;}
 
 
-.logo-footer{font-family: 'Raleway', sans-serif;
+.logo-footer{font-family:'Raleway',sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--color-too);}
+        color: var(--color-too);
+        display:inline-block;
+        margin-bottom:16px;}
