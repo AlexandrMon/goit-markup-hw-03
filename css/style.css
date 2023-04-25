@@ -39,16 +39,7 @@ body{ font-family:'Roboto',sans-serif;
       /* margin-right:24px; */
       }
 
- /* .margin-right */
-     /* :not(:nth-child(3n))  */
-              /* {margin-right: 24px;}  */
-
- /* .margin-right-one{ */
- /* :not(:nth-child(3n)){ */
-       /* margin-right:0;} */
-
-
-.line-portfolio-one {
+ .line-portfolio-one {
        display: flex;
        align-items: center;
        justify-content: center;
@@ -69,19 +60,23 @@ body{ font-family:'Roboto',sans-serif;
       font-size:16px;
       line-height: 1.5;
       letter-spacing: 0.02em;
+      text-align: center;
       color: var(--color-four);}
 .width-element{width:calc((100% - 72px)/4);}      
 
 
 .header{padding-top:24px ;
         padding-bottom:24px;
-        }
+       }
 
 .header-container{display: flex;
                   align-items: center;
                   padding-top:24px;
                   padding-bottom:24px;
-                  border-bottom: 1px solid var(--color-seven);}  
+                  padding-left: 15px;
+                  padding-right: 15px;
+                  border-bottom: 1px solid var(--color-seven); 
+            }  
 .nav{display: flex;
      align-items: center;}                    
        
@@ -106,7 +101,9 @@ body{ font-family:'Roboto',sans-serif;
            font-size:16px;
            color: var(--color-one);
            line-height: 1.5;
-           letter-spacing: 0.02em;}
+           letter-spacing: 0.02em;
+           padding-top: 24px;
+           padding-bottom: 24px}
 .menu-link:hover,.menu-link:focus{color: var(--color-six);}
  
 .adress{font-style: normal;}
@@ -188,7 +185,10 @@ body{ font-family:'Roboto',sans-serif;
                    padding-top: 96px;
                    padding-bottom: 120px;}
 
-.img-radius{border-radius: 0px 0px 4px 4px;}                   
+.img-radius{border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 4px;
+            border-bottom-left-radius: 4px;}                   
 
 .card {padding-top: 32px;
        padding-bottom: 32px;
@@ -219,22 +219,18 @@ body{ font-family:'Roboto',sans-serif;
               font-size:20px;
               line-height: 1.2;
               letter-spacing: 0.02em;
+              text-align: center;
               color:var(--color-one);
               margin-top:32px;
               margin-bottom:8px;}
 
 
 .footer{background-color:var(--color-one);
-        height: 312px;}
-.footer-conteiner{
-            /* height: 312px; */
-                  /* padding-left:156px; */
-                  padding-left:35px ;
-                  padding-top:100px;
-                  /* padding-right:1020px; */
-                  padding-right: 899px;
-                  padding-bottom:100px;
-            }
+        height: 312px;
+        padding-top: 100px;
+        padding-bottom:100px;}
+.footer-conteiner{padding-left:35px ;
+                  padding-right: 899px;}
 .p-footer{color:var(--color-five);
           margin-top:16px;}
 
