@@ -188,14 +188,12 @@ body{ font-family:'Roboto',sans-serif;
        padding-bottom: 32px;
        padding-left: 16px;
        padding-right: 16px;
-       border-radius: 0px 0px 4px 4px; 
+       /* border-radius: 0px 0px 4px 4px;  */
       } 
-.width {flex-basis:calc(100% - 3 * 24px)}
-.radius{
-       border-radius: 0px 0px 4px 4px;
-      
-   }
 
+.width {flex-basis:calc(100% - 3 * 24px)}
+.radius{border-radius: 0px 0px 4px 4px;}
+ /* .height{height:156px;}  */
 
 .card-portfolio {
        padding-top: 32px;
