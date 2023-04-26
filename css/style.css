@@ -32,25 +32,18 @@ body{ font-family:'Roboto',sans-serif;
 .link {text-decoration: none;}
 
 .line-one {display: flex;
-           flex-wrap: wrap;
-           /* column-gap:24px; */
-           row-gap:32px;}
-.line{display: flex;
-      /* column-gap:24px; */
-      /* margin-right:24px; */
-      }
+           flex-wrap: wrap;}
+           
+.line{display: flex;}
 
- .line-portfolio-one {
+.line-portfolio-one {
        display: flex;
        align-items: center;
        justify-content: center;
-       /* column-gap: 24px ;  */
-       /* margin-top:96px; */
        margin-bottom:72px;}
- .line-portfolio-too {
+.line-portfolio-too {
          display: flex;
          flex-wrap: wrap;
-         /* column-gap: 24px; */
          row-gap: 48px;}
 
 .element-margin:not(:nth-child(3n)){ margin-right:24px;}            
@@ -63,7 +56,7 @@ body{ font-family:'Roboto',sans-serif;
       letter-spacing: 0.02em;
       text-align: center;
       color: var(--color-four);}
-/* .width-element{width:calc((100% - 72px)/4);}       */
+ .width-element{width:calc((100% - 72px)/4);}       
 
 
 .header{
@@ -197,7 +190,7 @@ body{ font-family:'Roboto',sans-serif;
        padding-right: 16px;
        border-radius: 0px 0px 4px 4px; 
       } 
-.width {flex-basis: calc(100% - 3 * 24px)}
+.width {flex-basis:calc(100% - 3 * 24px)}
 .radius{
        border-radius: 0px 0px 4px 4px;
       
