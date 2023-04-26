@@ -192,7 +192,8 @@ body{ font-family:'Roboto',sans-serif;
       } 
 
 .width {flex-basis:calc(100% - 3 * 24px)}
-.radius{border-radius: 0px 0px 4px 4px;}
+.radius{width: calc((100% - 3 * 24px) / 4)
+        border-radius: 0px 0px 4px 4px;}
  /* .height{height:156px;}  */
 
 .card-portfolio {
