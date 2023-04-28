@@ -180,8 +180,7 @@ body{ font-family:'Roboto',sans-serif;
        padding-bottom: 32px;
        padding-left: 16px;
        padding-right: 16px;
-       text-align: center;
-          } 
+       text-align: center;} 
 
 .width {flex-basis:calc(100% - 3 * 24px)}
 .radius{
